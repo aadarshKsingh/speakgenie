@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+:root {
+  --background: 255 255 255;
+  --foreground: 15 23 42;
+  --border: 226 232 240;
+  --sidebar-bg: 248 250 252;
+  --sidebar-border: 226 232 240;
+}
+
+.dark {
+  --background: 15 23 42;
+  --foreground: 248 250 252;
+  --border: 51 65 85;
+  --sidebar-bg: 30 41 59;
+  --sidebar-border: 51 65 85;
+}
+
+.bg-background {
+  background-color: rgb(var(--background));
+}
+
+.text-foreground {
+  color: rgb(var(--foreground));
+}
+
+.border-border {
+  border-color: rgb(var(--border));
+}
+
+.bg-sidebar {
+  background-color: rgb(var(--sidebar-bg));
+}
+
+.border-sidebar {
+  border-color: rgb(var(--sidebar-border));
+}
