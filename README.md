@@ -2,7 +2,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/speakgenie.git
+git clone https://github.com/aadarshKsingh/speakgenie.git
 cd speakgenie
 ````
 
@@ -34,6 +34,6 @@ http://localhost:3000
 * **[Next.js](https://nextjs.org/)** — React framework for production
 * **[TypeScript](https://www.typescriptlang.org/)** — Type-safe JavaScript
 * **[TailwindCSS](https://tailwindcss.com/)** — Utility-first CSS framework
-* **[HeroUI](https://heroui.io/)** — Accessible, customizable UI components
+* **[HeroUI](https://heroui.com/)** — Accessible, customizable UI components
 
 
